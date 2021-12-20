@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+<script>
+        $("#1r").ready(function(){
+            $("#button4").click(function(){
+            $("#1r").css('fill', 'green');
+            });
+        });
+        
+        
+        </script>
+<script>
+    $("#2r").ready(function(){
+        $("#button5").click(function(){
+        $("#2r").css('fill', 'green');
+        });
+    });
+    
+    
+    </script>
+    <script>
+        $("#3r").ready(function(){
+            $("#button6").click(function(){
+            $("#3r").css('fill', 'green');
+            });
+        });
+        
+        
+        </script>
+        <script>
+            $("#1st").ready(function(){
+                $("#button1").click(function(){
+                    $("#1st").hide();
+                });
+            });
+        </script>
+        <script>
+            $("#2nd").ready(function(){
+                $("#button2").click(function(){
+                    $("#2nd").hide();
+                });
+            });
+        </script>
+        <script>
+            $("#3rd").ready(function(){
+                $("#button3").click(function(){
+                    $("#3rd").hide();
+                });
+            });
+        </script>
+        <script>
+            $("#3r").ready(function(){
+                $("#button7").click(function(){
+                $("#3r").css('fill', 'red');
+                $("#2r").css('fill', 'red');
+                $("#1r").css('fill', 'red');
+                });
+            });
+            
+            
+            </script>
+</head>
+<body>
+    
+    <div class="row">
+    <div class="col-sm-4"><svg id="1st" width="400" height="110"><rect id="1r" width="500" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" /></svg> </div>
+    <div class="col-sm-4"><svg id="2nd" width="400" height="110"><rect id="2r" width="500" height="100" style="fill:rgb(192, 233, 12);stroke-width:3;stroke:rgb(0,0,0)" /></svg></div>
+    <div class="col-sm-4"><svg id="3rd" width="400" height="110"><rect id="3r" width="500" height="100" style="fill:rgb(175, 14, 175);stroke-width:3;stroke:rgb(0,0,0)" /></svg></div>
+    </div>
+    </div>
+
+
+<div class="row">
+<div class="col-sm-4"><button id="button4">Change color</button></div>
+<div class="col-sm-4"><button id="button5">Change color</button></div>
+<div class="col-sm-4"><button id="button6">Change color</button></div>
+    </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-4"><button id="button7">Change all</button></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4"><button id="button1">Hide me</button></div>
+        <div class="col-sm-4"><button id="button2">Hide me</button></div>
+        <div class="col-sm-4"><button id="button3">Hide me</button></div>
+        </div>
+        </div>
+            
+</body>
+</html># Projects-Homework
+# bootstrap-jquery
